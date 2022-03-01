@@ -1,20 +1,48 @@
-.img__chamada{
-
+.secao__chamada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-left: 3rem;
+    
 }
 
+.img__chamada{
+    padding-left: 2rem;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
 
-
+.chamada{
+    width: 550px;
+    height: 350px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    right: 350px;
+    top: 40px;
+}
 .titulo__chamada{
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
     color: #222222;
     text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 2rem;
+    
 }
 
 .descricao__chamada{
     color: #8c8c8c;
     font-family: 'Alata', sans-serif;
     font-size: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 }

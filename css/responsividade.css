@@ -1,0 +1,299 @@
+@media screen and (max-width: 468px){
+    body, html {
+        overflow-x: hidden;
+        }
+   
+    .cabecalho{
+        background-image: url(../images/desktop/image-hero.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .menu__navegacao{
+        display: none;
+    }
+
+    .botao__mobile{
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .titulo__principal{
+        font-size: 2.5rem;
+        width: 50%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -75%);
+      }
+
+      .secao__chamada{
+          display:  block;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          
+      }
+
+      .img__chamada{
+          position: relative;
+          top: 50%;
+          left: 40%;
+          transform: translate(-50%, -60%);
+          width: 450px;
+      }
+
+      .chamada{
+          position: relative;
+          top: 50%;
+          left: 40%;
+          transform: translate(-50%, -60%);
+          width: 100%;
+          
+      }
+
+      .descricao__chamada{
+          text-align: center;
+          
+          
+      }
+      .botao{
+          display: none;
+      }
+
+      .secao__criacoes{
+          display: block;
+          padding-left: 3rem;
+      }
+
+      .titulo__criacoes{
+          text-align: center;
+      }
+
+      .conteudo__criacoes{
+          display: grid;
+          grid-template-columns: 1fr;
+          margin-top: -10rem;
+      }
+
+      .criacoes{
+          display: block;
+          
+      }
+
+      .img__desktop{
+          display: none;
+      }
+
+      .img__mobile{
+          display: flex;
+          flex-direction: column;
+          width: 150%;
+          height: auto;
+          position: relative;
+          right: 45%;
+          margin-bottom: 1rem;
+      }
+
+      .titulo__img-mobile{
+          display: block;
+          position: relative;
+          bottom: 100px;
+          right: 120px;
+      }
+
+      .titulo__img-desktop{
+          display: none;
+      }
+
+      .botao__mobile-alternativo{
+          display: block;
+          justify-self: center;
+          margin-bottom: 2rem;
+          width: 200px;
+          padding: .5rem;
+      }
+      
+      .rodape{
+          display: flex;
+          flex-direction: column;
+      }
+
+      .rodape__menu{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+      }
+
+      .img__logo-rodape{
+          margin-bottom: 1rem;
+      }
+
+      .menu__navegação-rodape{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 2rem;
+          
+      }
+
+      .link__navegacao{
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+      }
+      
+
+
+}
+
+@media screen and (max-width: 992px){
+    body, html {
+        overflow-x: hidden;
+        }
+
+    .cabecalho{
+        background-image: url(../images/desktop/image-hero.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .menu__navegacao{
+        display: none;
+    }
+
+    .botao__mobile{
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .titulo__principal{
+        font-size: 3rem;
+        width: 70%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -75%);
+      }
+
+      .secao__chamada{
+        display:  block;
+        margin-right: 4rem;
+        margin-left: 2rem;
+        
+    }
+
+    .img__chamada{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: 650px;
+        padding-bottom: 2rem;
+    }
+
+    .chamada{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        
+    }
+
+    .descricao__chamada{
+        text-align: center;
+    }
+
+    .secao__criacoes{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .conteudo__criacoes{
+        margin-top: -8rem;
+    }
+
+    .criacoes{
+        display: block;
+        
+    }
+
+    .img__desktop{
+        display: none;
+    }
+
+    .img__mobile{
+        display: flex;
+        flex-direction: column;
+        width: 150%;
+        height: auto;
+        position: relative;
+        right: 45%;
+        margin-bottom: 1rem;
+    }
+
+    .titulo__img-mobile{
+        display: block;
+        position: relative;
+        bottom: 100px;
+        right: 120px;
+    }
+
+    .titulo__img-desktop{
+        display: none;
+    }
+
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape__menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .img__logo-rodape{
+        margin-bottom: 1rem;
+    }
+
+    .menu__navegação-rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+        
+    }
+
+    .link__navegacao{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1824px){
+    .cabecalho{
+        background-image: url(../images/desktop/image-hero.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    
+    .secao__chamada{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
+    }
+   
+
+}

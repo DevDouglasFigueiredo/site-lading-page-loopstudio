@@ -1,0 +1,149 @@
+.criacoes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    margin-left: 5rem;
+    margin-right: 1.5rem;
+    max-width: 800px;
+    padding-left: 4rem;
+    
+    
+}
+    
+.secao__criacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.titulo__criacoes{
+    color: #222222;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 3rem;
+    padding-right: 3rem;
+}
+
+.botao{
+    background: none;
+    border: 1.5px solid black;
+    cursor: pointer;
+    font-family: "Alata", sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 0.5em 2em;
+    order: 3;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    margin-left: 3rem;
+    width: 150px;
+}
+
+.botao__mobile-alternativo{
+    display: none;
+}
+
+
+.botao:hover{
+    background: #000;
+    color: #fff;
+}
+
+.titulo__img{
+    color: rgb(230, 230, 230);
+    font-size: 1.5rem;
+    font-family: "Josefin" , sans-serif;
+    text-transform: uppercase;
+    opacity: 80%;
+    padding-left: .5rem;
+   
+}
+
+.criacoes__img{
+    transition: all 0.25s ease-in-out;
+}
+
+.criacoes__img:hover{
+    filter: blur(2px);
+    transform: scale(1.025);
+}
+
+.titulo__linha-1{
+    position: relative;
+    bottom: 525px;
+}
+
+.titulo__linha-soccer{
+    position: relative;
+    bottom: 560px;
+    left: 150px;
+    color: #fff
+}
+
+.titulo__linha-2{
+    position: relative;
+    bottom: 150px;
+}
+
+.titulo__linha-from{
+    position: relative;
+    bottom: 240px;
+    left:25px;
+    line-height: 2rem;
+    color: #fff;
+    
+}
+
+.titulo__img-mobile{
+    display: none;
+}
+
+
+.img__terra{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.img__mobile {
+    display: none;
+}
+
+.img__night{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.img__soccer{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.img__grid{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.img__from{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.img__pocket{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.img__curiosity{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.img__fisheye{
+    grid-column: 4;
+    grid-row: 2;
+}
