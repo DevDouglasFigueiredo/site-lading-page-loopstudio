@@ -160,14 +160,28 @@
     }
 
     .menu__navegacao{
-        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background: rgb(27, 12, 12);
+        padding: 6rem 2rem;
+        width: 100%;
+        max-width: 250px;
+        flex-direction: column;
     }
+
+    .menu__navegacao.active{
+        right: -100%;
+    }
+
 
     .botao__mobile{
         display: block;
         background: none;
         border: none;
         cursor: pointer;
+        z-index: 999;
     }
 
     .titulo__principal{
