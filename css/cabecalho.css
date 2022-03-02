@@ -29,6 +29,10 @@
     
 }
 
+.logo__mobile{
+    display: none;
+}
+
 .caixa__titulo{
     position: relative;
 }

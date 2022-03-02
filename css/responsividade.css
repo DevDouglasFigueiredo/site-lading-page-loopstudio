@@ -10,7 +10,22 @@
     }
     
     .menu__navegacao{
-        display: none;
+        position: relative;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background: rgb(27, 12, 12);
+        padding: 6rem 2rem;
+        width: 100%;
+        max-width: 250px;
+        flex-direction: column;
+        transition: .5s ease-in-out;
+        text-align: center;
+        z-index: 999;
+    }
+
+    .menu__navegacao.active{
+        right: -100%;
     }
 
     .botao__mobile{
@@ -18,6 +33,12 @@
         background: none;
         border: none;
         cursor: pointer;
+        z-index: 999;
+    }
+
+    .logo__mobile{
+        display: block;
+        margin-bottom: 2rem;
     }
 
     .titulo__principal{
@@ -169,6 +190,9 @@
         width: 100%;
         max-width: 250px;
         flex-direction: column;
+        transition: .5s ease-in-out;
+        text-align: center;
+        z-index: 999;
     }
 
     .menu__navegacao.active{
@@ -182,6 +206,11 @@
         border: none;
         cursor: pointer;
         z-index: 999;
+    }
+
+    .logo__mobile{
+        display: block;
+        margin-bottom: 2rem;
     }
 
     .titulo__principal{
