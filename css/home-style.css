@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #f8f8f8, #b1aae0, #7a187a,#302d2d, #f5af7e, #7e5730, #f3ea97);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+    
+
+}
+
+.conteudo__imagem{
+    padding-left: 4rem;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.conteudo__botao{
+    position: relative;
+    
+}
+
+.botao{
+    background: none;
+    border: 1.5px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 0.5em 2em;
+    order: 3;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    margin-left: 3rem;
+    width: 250px;
+
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+.botao:hover{
+    background: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 568px){
+.conteudo__botao{
+    position: relative;
+    
+}
+.botao{
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+}
+
+@media screen and (max-width: 992px){
+    .conteudo__botao{
+        position: relative;
+        
+    }
+    .botao{
+        position: absolute;
+        top: 30px;
+        left: 0;
+    }
+}
