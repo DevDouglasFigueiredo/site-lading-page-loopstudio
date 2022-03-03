@@ -65,6 +65,11 @@
           width: 450px;
       }
 
+      .conteudo__imagem{
+          padding-bottom: 4rem;
+
+      }
+
       .chamada{
           position: relative;
           top: 50%;
@@ -74,8 +79,16 @@
           
       }
 
+      .titulo__chamada{
+          
+          padding-top: 6rem;
+          
+      }
+
       .descricao__chamada{
           text-align: center;
+          padding-bottom: 3rem;
+          margin-bottom: 3rem;
           
           
       }
